@@ -20,7 +20,7 @@ const Main = () => {
             )}
             <Route path={navItems[2].route} element={<StarWars/>}></Route>
             <Route path={navItems[3].route} element={<Contact/>}></Route>
-            <Route path={navItems[4].route} element={<Error />} />
+            <Route path={"*" || "error"} element={<Error />} />
         </Routes>
     )
 };
