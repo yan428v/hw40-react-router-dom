@@ -5,6 +5,8 @@ import styles from "../css/farGalaxy.module.css"
 const FarGalaxy = () => {
     const [text, setText] = useState('Loading...');
 
+
+
     useEffect(() => {
         const opening_crawl = sessionStorage.getItem('opening_crawl')
         if (opening_crawl) {
