@@ -11,6 +11,8 @@ import friend9 from '../images/friend9.jpg';
 export const friends = [friend1, friend2, friend3, friend4, friend5, friend6, friend7, friend8, friend9];
 
 export const navItems = [{
+    
+    
     title: "Home",
     route: "home"
 }, {
